@@ -25,7 +25,8 @@ switch (vyhledat.includes){
     break;
     case("type"): console.log(pikachu.type + " " + magikarp.type);
     break;
-    
+    default:
+        console.log("Špatně zadané vlastnosti!");
 }
 
 
