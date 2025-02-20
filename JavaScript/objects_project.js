@@ -16,7 +16,7 @@ let vyhledat = window.prompt("Co bys chtěl vědět o svém pokémonu? (name, vo
 
 
 
-switch (vyhledat.includes){
+switch (vyhledat){
     case("name"): console.log(pikachu.name + " " + magikarp.name);
     break;
     case("voiceline"): console.log(pikachu.voiceline + " " + magikarp.voiceline);
